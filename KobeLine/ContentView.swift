@@ -11,12 +11,17 @@ struct ContentView: View {
     @EnvironmentObject var viewModel: StationViewModel
     var body: some View {
         VStack {
-            List(viewModel.stations,id: \.self){ station in
-                HStack {
-                    StationNumberView(station: station)
-                    StationView(station: station)
+            NavigationView {
+                List(viewModel.stations){ station in
+                    HStack {
+                        StationNumberView(station: station)
+                        StationView(station: station)
+                    }
                 }
+                .navigationTitle("神戸線 Kobe Line")
+                .navigationBarTitleDisplayMode(.inline)
             }
+            
         }
     }
 }
