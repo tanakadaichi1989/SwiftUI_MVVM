@@ -14,6 +14,12 @@
 		A1821D932A3D76B0001E37CB /* KobeLineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1821D922A3D76B0001E37CB /* KobeLineTests.swift */; };
 		A1821D9D2A3D76B0001E37CB /* KobeLineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1821D9C2A3D76B0001E37CB /* KobeLineUITests.swift */; };
 		A1821D9F2A3D76B0001E37CB /* KobeLineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1821D9E2A3D76B0001E37CB /* KobeLineUITestsLaunchTests.swift */; };
+		A1821DAC2A3D773B001E37CB /* Station_Kobe.json in Resources */ = {isa = PBXBuildFile; fileRef = A1821DAB2A3D773B001E37CB /* Station_Kobe.json */; };
+		A1821DB02A3D7766001E37CB /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1821DAF2A3D7766001E37CB /* Station.swift */; };
+		A1821DB22A3D7843001E37CB /* JSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1821DB12A3D7843001E37CB /* JSONLoader.swift */; };
+		A1821DB42A3D7996001E37CB /* StationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1821DB32A3D7996001E37CB /* StationViewModel.swift */; };
+		A1821DB62A3D7EF7001E37CB /* StationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1821DB52A3D7EF7001E37CB /* StationView.swift */; };
+		A1821DB82A3D84ED001E37CB /* StationNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1821DB72A3D84ED001E37CB /* StationNumberView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		A1821D982A3D76B0001E37CB /* KobeLineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KobeLineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1821D9C2A3D76B0001E37CB /* KobeLineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KobeLineUITests.swift; sourceTree = "<group>"; };
 		A1821D9E2A3D76B0001E37CB /* KobeLineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KobeLineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A1821DAB2A3D773B001E37CB /* Station_Kobe.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Station_Kobe.json; path = "../../App Develop/Station_Kobe.json"; sourceTree = "<group>"; };
+		A1821DAF2A3D7766001E37CB /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		A1821DB12A3D7843001E37CB /* JSONLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONLoader.swift; sourceTree = "<group>"; };
+		A1821DB32A3D7996001E37CB /* StationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationViewModel.swift; sourceTree = "<group>"; };
+		A1821DB52A3D7EF7001E37CB /* StationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationView.swift; sourceTree = "<group>"; };
+		A1821DB72A3D84ED001E37CB /* StationNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationNumberView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +107,13 @@
 			isa = PBXGroup;
 			children = (
 				A1821D812A3D76AF001E37CB /* KobeLineApp.swift */,
+				A1821DB12A3D7843001E37CB /* JSONLoader.swift */,
+				A1821DAF2A3D7766001E37CB /* Station.swift */,
+				A1821DB32A3D7996001E37CB /* StationViewModel.swift */,
+				A1821DB72A3D84ED001E37CB /* StationNumberView.swift */,
 				A1821D832A3D76AF001E37CB /* ContentView.swift */,
+				A1821DB52A3D7EF7001E37CB /* StationView.swift */,
+				A1821DAB2A3D773B001E37CB /* Station_Kobe.json */,
 				A1821D852A3D76B0001E37CB /* Assets.xcassets */,
 				A1821D872A3D76B0001E37CB /* Preview Content */,
 			);
@@ -233,6 +251,7 @@
 			files = (
 				A1821D892A3D76B0001E37CB /* Preview Assets.xcassets in Resources */,
 				A1821D862A3D76B0001E37CB /* Assets.xcassets in Resources */,
+				A1821DAC2A3D773B001E37CB /* Station_Kobe.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +276,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1821DB42A3D7996001E37CB /* StationViewModel.swift in Sources */,
+				A1821DB82A3D84ED001E37CB /* StationNumberView.swift in Sources */,
+				A1821DB62A3D7EF7001E37CB /* StationView.swift in Sources */,
+				A1821DB22A3D7843001E37CB /* JSONLoader.swift in Sources */,
 				A1821D842A3D76AF001E37CB /* ContentView.swift in Sources */,
 				A1821D822A3D76AF001E37CB /* KobeLineApp.swift in Sources */,
+				A1821DB02A3D7766001E37CB /* Station.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

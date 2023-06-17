@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct KobeLineApp: App {
+    @StateObject var viewModel = StationViewModel()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(viewModel)
         }
     }
 }
