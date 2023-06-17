@@ -8,7 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
-    @EnvironmentObject var viewModel: StationViewModel
+    @ObservedObject var viewModel: StationViewModel
+    
+    init(viewModel: StationViewModel) {
+        self.viewModel = viewModel
+    }
+    
     var body: some View {
         VStack {
             NavigationView {
