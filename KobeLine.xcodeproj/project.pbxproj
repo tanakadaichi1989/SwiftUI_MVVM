@@ -20,6 +20,7 @@
 		A1821DB42A3D7996001E37CB /* StationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1821DB32A3D7996001E37CB /* StationViewModel.swift */; };
 		A1821DB62A3D7EF7001E37CB /* StationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1821DB52A3D7EF7001E37CB /* StationView.swift */; };
 		A1821DB82A3D84ED001E37CB /* StationNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1821DB72A3D84ED001E37CB /* StationNumberView.swift */; };
+		A1821DBA2A3D90AA001E37CB /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1821DB92A3D90AA001E37CB /* Line.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		A1821DB32A3D7996001E37CB /* StationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationViewModel.swift; sourceTree = "<group>"; };
 		A1821DB52A3D7EF7001E37CB /* StationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationView.swift; sourceTree = "<group>"; };
 		A1821DB72A3D84ED001E37CB /* StationNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationNumberView.swift; sourceTree = "<group>"; };
+		A1821DB92A3D90AA001E37CB /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		A1821D802A3D76AF001E37CB /* KobeLine */ = {
 			isa = PBXGroup;
 			children = (
+				A1821DB92A3D90AA001E37CB /* Line.swift */,
 				A1821D812A3D76AF001E37CB /* KobeLineApp.swift */,
 				A1821DB12A3D7843001E37CB /* JSONLoader.swift */,
 				A1821DAF2A3D7766001E37CB /* Station.swift */,
@@ -281,6 +284,7 @@
 				A1821DB62A3D7EF7001E37CB /* StationView.swift in Sources */,
 				A1821DB22A3D7843001E37CB /* JSONLoader.swift in Sources */,
 				A1821D842A3D76AF001E37CB /* ContentView.swift in Sources */,
+				A1821DBA2A3D90AA001E37CB /* Line.swift in Sources */,
 				A1821D822A3D76AF001E37CB /* KobeLineApp.swift in Sources */,
 				A1821DB02A3D7766001E37CB /* Station.swift in Sources */,
 			);

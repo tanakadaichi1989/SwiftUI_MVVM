@@ -14,17 +14,17 @@ struct StationNumberView: View {
             Circle()
                 .stroke(style: StrokeStyle(lineWidth: 2))
                 .frame(width: 30,height: 30)
-                .foregroundColor(.blue)
+                .foregroundColor(Line.Kobe.color)
             VStack(spacing: 0) {
                 Text("HK")
                     .font(.caption2)
                     .fontWeight(.bold)
-                    .foregroundColor(.blue)
+                    .foregroundColor(Line.Kobe.color)
                     .padding(0)
                 Text(station.numbering)
                     .font(.caption2)
                     .fontWeight(.bold)
-                    .foregroundColor(.blue)
+                    .foregroundColor(Line.Kobe.color)
                     .padding(0)
             }
         }

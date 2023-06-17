@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     @ObservedObject var viewModel: StationViewModel
-    
     init(viewModel: StationViewModel) {
         self.viewModel = viewModel
     }
@@ -17,16 +16,17 @@ struct ContentView: View {
     var body: some View {
         VStack {
             NavigationView {
-                List(viewModel.stations){ station in
-                    HStack {
-                        StationNumberView(station: station)
-                        StationView(station: station)
-                    }
-                }
-                .navigationTitle("神戸線 Kobe Line")
-                .navigationBarTitleDisplayMode(.inline)
+                listView
             }
-            
+        }
+    }
+    
+    private var listView: some View {
+        List(viewModel.stations){ station in
+            HStack {
+                StationNumberView(station: station)
+                StationView(station: station)
+            }
         }
     }
 }
