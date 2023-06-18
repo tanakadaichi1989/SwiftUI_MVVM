@@ -19,12 +19,4 @@ class StationViewModel: ObservableObject {
             stations = []
         }
     }
-    
-    public func load() {
-        do {
-            stations = try loader.load("Station_Kobe.json")
-        } catch {
-            stations = []
-        }
-    }
 }

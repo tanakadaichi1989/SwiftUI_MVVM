@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import Combine
 
 class JSONLoader {
     private static var instance: JSONLoader = JSONLoader()
